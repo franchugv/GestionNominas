@@ -43,6 +43,20 @@ namespace GestionNominasV1
             
         }
 
+        public string ApellidosEmpleado
+        {
+            get
+            {
+                // Validación de los Datos a Establecer                
+                return _apellidos;
+            }
+
+            set
+            {
+                // Establecimiento del valor al miembro privadoo
+                _apellidos = value;
+            }
+        }
 
     }
 }
